@@ -1,0 +1,11 @@
+Threshold,0.5,
+,Positive,Negative
+True,887,0
+False,0,1221
+,,
+TN vs FN,0.0,1.0
+TP vs FP,1.0,0.0
+,,
+Accuracy,0.42077798861480076,
+Precision,1.0,
+Recall,0.42077798861480076,
