@@ -1,0 +1,43 @@
+
+[project]
+name = "completeness_estimation"
+version = "0.0.1"
+description = "Transformer-based feature extractor for predicting map exploration completeness"
+authors = [
+  { name = "Matteo Princisgh" },
+]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "ipython",
+    "ipywidgets",
+    "jupyterlab",
+    "loguru",
+    "matplotlib",
+    "natsort",
+    "notebook",
+    "numpy",
+    "optuna",
+    "pandas",
+    "pip",
+    "plotly",
+    "python-dotenv",
+    "scikit-learn",
+    "tqdm",
+    "typer",
+    "torch",
+    "torchvision",
+    "torchmetrics",
+    "transformers",
+    "opencv-python",
+]
+requires-python = ">=3.12.0"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+
+
